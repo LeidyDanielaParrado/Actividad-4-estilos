@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "/src/styles/AddTask.scss";
 
 const AddTask = ({ listTask, setlistTask }) => {
     const handleSubmit = (e) => {
@@ -11,7 +12,7 @@ const AddTask = ({ listTask, setlistTask }) => {
     };
 
     return (
-        <section>
+        <section className="add-task">
             <h1>Agregar una tarea</h1>
 
             <form onSubmit={handleSubmit}>

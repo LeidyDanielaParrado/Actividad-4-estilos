@@ -1,0 +1,15 @@
+.botton-atom {
+    background-color: #5606a1; 
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    font-weight: bold;
+    box-shadow: 0 7px 9px rgba(14, 1, 18, 0.203);
+
+    &:hover {
+        background-color: #8c3bfc; 
+    }
+}

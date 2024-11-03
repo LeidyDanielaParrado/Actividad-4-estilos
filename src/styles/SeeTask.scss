@@ -1,0 +1,37 @@
+.see-task {
+    padding: 20px; 
+    background-color: #fac5f8c9; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.see-task h1 {
+    margin-bottom: 20px; 
+    font-family: "Handwritten Story";
+    color: black;
+}
+
+.task-list {
+    padding: 0; 
+    color: #ae07ac;
+}
+
+.task-item {
+    margin-bottom: 15px; 
+    padding: 10px; 
+    border: 1px solid #cb07e9a0; 
+    border-radius: 4px; 
+    background-color: #fff;
+}
+
+.task-item h2 {
+    margin: 0; 
+    font-size: 1.2em; 
+    font-family: "Handwritten Story";
+    color: black;
+}
+
+.task-item p {
+    margin: 5px 0 0;
+    color: #616161; 
+}

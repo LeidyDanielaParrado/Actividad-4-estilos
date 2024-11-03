@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/css/wallpaper");
 #root {
     display: flex;
     flex-direction: column;
@@ -5,4 +6,16 @@
     justify-content: center;
 
     min-height: 100vh;
+    background-color: #ee99fc;
+    padding: 20px;
+    
+}
+
+*{
+    font-family: "Handwritten Story";
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
 }

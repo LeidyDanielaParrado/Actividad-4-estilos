@@ -1,0 +1,42 @@
+.add-task {
+    padding: 20px; 
+    background-color: #f1aef9c6; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-task h1 {
+    margin-bottom: 20px;
+    color: black;
+    font-family: "Handwritten Story";
+}
+
+.add-task form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-task input,
+.add-task textarea {
+    margin-bottom: 10px; 
+    padding: 10px;
+    border: 1px solid #eb78f8; 
+    background-color: #fae7f8;
+    color: black;
+    border-radius: 4px; 
+}
+
+.add-task button {
+    background-color: #8d03b0;
+    color: white;
+    border: none;
+    padding: 10px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+}
+
+.add-task button:hover {
+    background-color: #680481;
+    border: none;
+}
